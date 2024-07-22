@@ -25,8 +25,8 @@ export default function Home() {
     <>
       <Navbar />
 
-      <header className="flex flex-col md:items-start items-center container bg-background pb-11">
-        <div className="mt-16 md:ml-10 flex items-center flex-col w-full md:w-1/2 text-center md:text-left">
+      <header className="flex flex-col md:items-start items-center container bg-background md:pt-16 pb-11">
+        <div className="mt-24 md:mt-16 md:ml-10 flex items-center flex-col w-full md:w-1/2 text-center md:text-left">
           <h1 className="md:text-4xl text-3xl font-extrabold"><span className="text-secondary">User-Centric Excellence</span>: Our App Development services Tackles Your Pain Points</h1>
           <h2 className="md:text-lg">Experience a Seamless Digital Journey with <span className="text-primary">Desun</span> - Where Every Line of Code Resolves Your Challenges and <span className="text-secondary">Elevates Your App Experience</span> to Unparalleled Heights.</h2>
         </div>
@@ -44,12 +44,12 @@ export default function Home() {
               loop: true,
             }}>
               <CarouselContent>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="./logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3"><Image alt="logo png's" src="/logobar.png" className="border-2 border-black mx-auto" width={150} height={150} /></CarouselItem>
               </CarouselContent>
               <CarouselPrevious className="hidden md:block" />
               <CarouselNext className="hidden md:block" />

@@ -6,23 +6,23 @@ const Footer = () => {
         <footer className='md:flex justify-center items-center md:p-10'>
             <div className='bg-black text-white px-9 md:px-24 py-10 container space-y-10 md:rounded-xl'>
                 <div className='flex justify-center items-center mb-16'>
-                    <Image priority width={220} height={220} src="./logo.png" alt="Flowbite Logo" />
+                    <Image priority width={220} height={220} src="/logo.png" alt="Flowbite Logo" />
                 </div>
                 <div id="contacts" className='flex flex-wrap gap-9 justify-between'>
                     <div>
-                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Phone png' src="./footer/phone.png" width={12} height={12} /><span>Contact nums</span></div>
+                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Phone png' src="/footer/phone.png" width={12} height={12} /><span>Contact nums</span></div>
                         <div>+91 0000000000</div>
                     </div>
                     <div className='overflow-hidden'>
-                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Mail png' src="./footer/mail.png" width={12} height={12} /><span>Gmail</span></div>
+                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Mail png' src="/footer/mail.png" width={12} height={12} /><span>Gmail</span></div>
                         <div className='break-words'>palkeshprajapati88@gmail.com</div>
                     </div>
                     <div>
-                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Addrress png' src="./footer/address.png" width={12} height={12} /><span>Address</span></div>
+                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Addrress png' src="/footer/address.png" width={12} height={12} /><span>Address</span></div>
                         <div>Ujjain, MP, India</div>
                     </div>
                     <div>
-                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='paper png' src="./footer/paper.png" width={12} height={12} /><span>Leave a request</span></div>
+                        <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='paper png' src="/footer/paper.png" width={12} height={12} /><span>Leave a request</span></div>
                         <div>Leave a request</div>
                     </div>
                 </div>
