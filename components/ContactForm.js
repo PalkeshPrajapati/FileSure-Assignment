@@ -99,8 +99,8 @@ const ContactForm = () => {
                                 </FormItem>
                             )}
                         />
-                    <div className='flex items-end col-span-1 md:col-span-4 lg:col-span-1'>
-                        <Button size="lg" type="submit" className="text-wrap w-full">Get consultation</Button>
+                    <div className='flex mt-4 md:mt-0 items-end col-span-1 md:col-span-4 lg:col-span-1'>
+                        <Button size="lg" type="submit" className="text-wrap w-full text-sm">Get consultation</Button>
                     </div>
                 </form>
             </Form>

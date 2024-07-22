@@ -13,9 +13,9 @@ const Footer = () => {
                         <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Phone png' src="./footer/phone.png" width={12} height={12} /><span>Contact nums</span></div>
                         <div>+91 0000000000</div>
                     </div>
-                    <div>
+                    <div className='overflow-hidden'>
                         <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Mail png' src="./footer/mail.png" width={12} height={12} /><span>Gmail</span></div>
-                        <div>palkeshprajapati88@gmail.com</div>
+                        <div className='break-words'>palkeshprajapati88@gmail.com</div>
                     </div>
                     <div>
                         <div className='text-sm text-slate-300 mb-1 flex items-center gap-1'><Image alt='Addrress png' src="./footer/address.png" width={12} height={12} /><span>Address</span></div>

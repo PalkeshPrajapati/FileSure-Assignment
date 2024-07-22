@@ -38,7 +38,7 @@ export default function Home() {
       <main>
         {/* Logobar and "Full development cycle" section */}
         <section className="bg-white px-0 md:px-10 py-10 container">
-          <div className="py-5 border-y-2 mb-14">
+          <div className="py-5 border-y-2 mb-14 overflow-hidden">
             <Carousel opts={{
               align: "start",
               loop: true,
@@ -56,7 +56,7 @@ export default function Home() {
             </Carousel>
           </div>
 
-          <div id="services" className="grid grid-col-1 md:grid-cols-2 gap-10 container">
+          <div id="services" className="grid grid-col-1 md:grid-cols-2 gap-5 md:gap-10 container">
             <div>
               <h2 className="md:text-3xl text-2xl font-bold mb-4">Full development cycle</h2>
               <p className="text-sm font-bold">We have proven technologies</p>
@@ -107,26 +107,22 @@ export default function Home() {
         <section id="faq" className="bg-background md:px-14 py-10 container">
           <div>
             <div className="md:text-3xl text-2xl font-bold my-5">FAQ</div>
-            <Accordion type="single" collapsible className="flex flex-col md:flex-row gap-14 flex-wrap">
-              <div className="flex-1 space-y-10">
-                <AccordionItem value="item-1">
+            <Accordion type="single" collapsible className="flex gap-14 flex-wrap">
+                <AccordionItem value="item-1" className="w-full md:w-[46%]">
                   <AccordionTrigger className="font-bold text-start">What is the cost of a mobile application?</AccordionTrigger>
                   <AccordionContent>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis autem neque sed, atque eaque excepturi omnis sint ducimus asperiores, molestias ab consectetur a earum quod soluta. Cupiditate doloremque dignissimos voluptas quidem laborum.
                   </AccordionContent>
                 </AccordionItem>
-                
 
-                <AccordionItem value="item-2">
+                <AccordionItem value="item-2" className="w-full md:w-[46%]">
                   <AccordionTrigger className="font-bold text-start">Do you provide a guarantee for the mobile application?</AccordionTrigger>
                   <AccordionContent>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ab, expedita accusantium est tenetur eos adipisci reiciendis praesentium iste, explicabo blanditiis totam vero provident animi nisi maxime sint aliquid amet quibusdam? Consectetur, deserunt harum iste odit illum distinctio quidem assumenda sint inventore, velit suscipit ipsum?
                   </AccordionContent>
                 </AccordionItem>
-              </div>
 
-              <div className="flex-1 space-y-10">
-                <AccordionItem value="item-3">
+                <AccordionItem value="item-3" className="w-full md:w-[46%]">
                   <AccordionTrigger className="font-bold text-start">How long will development take?</AccordionTrigger>
                   <AccordionContent>
                       Development terms directly depend on the requirements for the mobile application, the characteristics of the company, as well as the wishes of the customer.<br/>
@@ -138,13 +134,12 @@ export default function Home() {
                   </AccordionContent>
                 </AccordionItem>
 
-                <AccordionItem value="item-4">
+                <AccordionItem value="item-4" className="w-full md:w-[46%]">
                   <AccordionTrigger className="font-bold text-start">I will not tell my idea, do you guarantee confidentiality?</AccordionTrigger>
                   <AccordionContent>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, maiores repellat laborum, culpa corporis atque, nobis obcaecati esse numquam dicta harum officia fuga autem iste.
                   </AccordionContent>
                 </AccordionItem>
-              </div>
             </Accordion>
 
           </div>
